@@ -33,6 +33,7 @@ File -> Import -> Maven -> Existing Maven project -> spring-boot-admin
 |Configuration File | [application.properties](https://github.com/Sudarshan-Gowda/Guestbook/blob/main/src/main/resources/application.properties) |
 |Scripts - Create File| [database.sql](https://github.com/Sudarshan-Gowda/Guestbook/blob/main/src/main/resources/database.sql) |
 |Scripts - Insert File| [scripts.sql](https://github.com/Sudarshan-Gowda/Guestbook/blob/main/src/main/resources/scripts.sql) |
+|SpringSecurityConfig File| [SpringSecurityConfig.java](https://github.com/Sudarshan-Gowda/Guestbook/blob/main/src/main/java/com/guestbook/security/service/SpringSecurityConfig.java) |
 
 ## Steps to test the application:
 
@@ -49,7 +50,27 @@ File -> Import -> Maven -> Existing Maven project -> spring-boot-admin
 
 ### To see the complete project flow <br> <br>
 
+ Project Flow for Guest Book <br/>
  <img src="https://github.com/Sudarshan-Gowda/Guestbook/blob/main/docs/project-flow.gif" width="100%"/>
+ 
+ 1. Login Page for Guest User/Admin<br/>
+  <img src="https://github.com/Sudarshan-Gowda/Guestbook/blob/main/docs/Pic01.png" width="100%"/>
+  
+ 2. Registration Page for Guest User  <br/>
+  <img src="https://github.com/Sudarshan-Gowda/Guestbook/blob/main/docs/Pic02.png" width="100%"/>
+  
+ 3. Login as Guest User and create new book entry <br/>
+  <img src="https://github.com/Sudarshan-Gowda/Guestbook/blob/main/docs/Pic05.png" width="100%"/>
+
+ 4. Login as Admin User and can view all the records <br/> 
+  <img src="https://github.com/Sudarshan-Gowda/Guestbook/blob/main/docs/Pic03.png" width="100%"/>
+ 
+ 5. Update/View the record for Admin User <br/>
+  <img src="https://github.com/Sudarshan-Gowda/Guestbook/blob/main/docs/Pic04.png" width="100%"/>
+  
+ 6. Admin User can do Approve/Update/View/Delete for newly added record by Guest User <br/>
+  <img src="https://github.com/Sudarshan-Gowda/Guestbook/blob/main/docs/Pic06.png" width="100%"/>
+
 
 
 # Contributing
