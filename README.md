@@ -7,6 +7,7 @@ The following items should be installed in your system:
 * MySQL Workbench
 * Git
 * Java 11
+* Maven
 
 ### Technologies Used
 * Java 11
@@ -42,6 +43,13 @@ File -> Import -> Maven -> Existing Maven project -> spring-boot-admin
 `step 2`: Create schema with name `guestbook` and execute data base scripts to create table structures from [database.sql](https://github.com/Sudarshan-Gowda/Guestbook/blob/main/src/main/resources/database.sql) and import the default data from file [scripts.sql](https://github.com/Sudarshan-Gowda/Guestbook/blob/main/src/main/resources/scripts.sql) <br><br>
 `step 3`: Go to the main class file and run as Java application. <br> or execute the commands `mvn spring-boot:run` to run locally <br> <br>
 `step 4`: Once the application starts, By default application will be deployed in 8080 port, and you can access it by using http://localhost:8080/ <br>
+
+### Build Application
+  To build the application using maven, use the command `mvn clean install`, this will create production ready jar file under target folder to deploy to any server.
+  <br/>
+   <img src="https://github.com/Sudarshan-Gowda/Guestbook/blob/main/docs/mvn-build.png" width="100%"/>
+
+  
 
 ### To Login to Application
      Navigate to the URL http://localhost:8080/ and use the below credentails to login and manage the application <br>
