@@ -1,5 +1,23 @@
-# spring-boot-admin-server-client
-GuestBook Application using Spring Book
+# Guest Book Application Using Spring Boot and JSP
+Guestbook application consists of two types of users. <br/>
+<ol>
+ <li>Guests</li>
+  <li>Administrator</li>
+</ol>
+
+#### Guests
+<ul>
+ <li>User needs to login in order to write a new entry in the guestbook</li>
+ <li>Guestbook entry can be either a single image or a text</li>
+</ul>
+
+#### Administrator
+<ul>
+ <li>View all the entries posted by all the users</li>
+ <li>Approve the entries</li>
+ <li>Edit the entries</li>
+ <li>Remove the entries</li>
+</ul>
 
 ### Prerequisites
 The following items should be installed in your system:
