@@ -1,4 +1,12 @@
 # Guest Book Application Using Spring Boot and JSP
+
+
+### Build and Test
+This application is build and done testing with Pipeline; <br/>
+[![CircleCI](https://circleci.com/gh/Sudarshan-Gowda/Guestbook.svg?style=svg)](https://circleci.com/gh/Sudarshan-Gowda/Guestbook)
+
+
+### Feature and Scope:
 Guestbook application consists of two types of users. <br/>
 <ol>
  <li>Guests</li>
@@ -18,10 +26,6 @@ Guestbook application consists of two types of users. <br/>
  <li>Edit the entries</li>
  <li>Remove the entries</li>
 </ul>
-
-### Build and Test
-This application is build and test using Pipeline; <br/>
-[![CircleCI](https://circleci.com/gh/Sudarshan-Gowda/Guestbook.svg?style=svg)](https://circleci.com/gh/Sudarshan-Gowda/Guestbook)
 
 ### Prerequisites
 The following items should be installed in your system:
