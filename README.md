@@ -19,6 +19,10 @@ Guestbook application consists of two types of users. <br/>
  <li>Remove the entries</li>
 </ul>
 
+### Build and Test
+This application is build and test using Pipeline; <br/>
+[![CircleCI](https://circleci.com/gh/Sudarshan-Gowda/Guestbook.svg?style=svg)](https://circleci.com/gh/Sudarshan-Gowda/Guestbook)
+
 ### Prerequisites
 The following items should be installed in your system:
 * Tool - Spring Tool Suite/Eclipse
